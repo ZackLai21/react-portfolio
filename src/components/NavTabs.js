@@ -5,7 +5,7 @@ import React from 'react';
 function NavTabs({ currentPage, handlePageChange }) {
   return (
     
-    <ul className="nav">
+    <ul className="nav d-flex align-items-center make-neat">
       <h1>Zack Lai</h1>
       <li className="nav-item">
         <a
