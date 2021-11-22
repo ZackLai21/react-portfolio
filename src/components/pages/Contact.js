@@ -42,16 +42,17 @@ function Form() {
     setName("");
     setEmail("");
     setMessage("");
+    setErrorMessage("");
   };
 
   return (
-    <div>
+    <div className='make-neat'>
       <h1>Contact</h1>
       <form className="form">
         <div className="form-group">
-          <label for="nameInput">Name:</label>
+          <label htmlFor="nameInput">Name:</label>
           <input
-            className="form-control"
+            className="form-control input-size"
             value={Name}
             name="name"
             onChange={handleInputChange}
@@ -60,9 +61,9 @@ function Form() {
           />
         </div>
         <div className="form-group">
-          <label for="emailInput">Email:</label>
+          <label htmlFor="emailInput">Email:</label>
           <input
-            className="form-control"
+            className="form-control  input-size"
             value={email}
             name="email"
             onChange={handleInputChange}
@@ -71,15 +72,14 @@ function Form() {
           />
         </div>
         <div className="form-group">
-          <label for="messageInput">Message:</label>
-          <input
-            className="form-control"
+          <label htmlFor="messageInput">Message:</label>
+          <textarea
+            className="form-control input-size"
             value={Message}
             name="message"
-            onChange={handleInputChange}
-            type="text"
-            placeholder="message"
-          />
+            rows='5'
+
+          ></textarea>
         </div>
         <button type="button" onClick={handleFormSubmit}>
           Submit
