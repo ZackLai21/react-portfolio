@@ -16,9 +16,15 @@ code {
 img{
   height: 100pt;
   width: 100pt;
+  margin-bottom: 50pt;
 }
 
 .footer img{
+  margin-top: 200pt;
   height: 50pt;
   width: 50pt;
+}
+
+.nav{
+  height: 100pt;
 }
