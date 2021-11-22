@@ -2,7 +2,7 @@ import React from "react";
 import img from "../../img/Img.jpeg";
 export default function Home() {
   return (
-    <div>
+    <div className='make-neat'>
       <h1>About Me</h1>
       <img
         src={img}
