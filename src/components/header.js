@@ -4,6 +4,7 @@ import Home from './pages/Home';
 import Project from './pages/Project';
 import Resume from './pages/Resume';
 import Contact from './pages/Contact';
+import Footer from './footer';
 
 export default function Header() {
   const [currentPage, setCurrentPage] = useState('Home');
@@ -30,6 +31,8 @@ export default function Header() {
       <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
       {/* Here we are calling the renderPage method which will return a component  */}
       {renderPage()}
+      <Footer />
+
     </div>
   );
 }
