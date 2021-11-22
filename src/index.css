@@ -27,4 +27,22 @@ img{
 
 .nav{
   height: 100pt;
+
+}
+.input-size{
+  width: 40%;
+}
+
+.make-neat{
+  margin-left: 20pt;
+  margin-right: 20pt;
+}
+
+.card-img{
+  height:400px;
+  width: 400px;
+}
+.card{
+  height:400px;
+  width: 400px;
 }
