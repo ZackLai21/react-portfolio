@@ -5,12 +5,16 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: blanchedalmond;
+  background-color:lightblue;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.name{
+  font-size:80pt;
 }
 
 img{
@@ -20,7 +24,7 @@ img{
 }
 
 .footer img{
-  margin-top: 200pt;
+  margin-top: 170pt;
   height: 50pt;
   width: 50pt;
 }
@@ -39,10 +43,37 @@ img{
 }
 
 .card-img{
-  height:400px;
-  width: 400px;
+  height:500px;
+  width: 500px;
 }
 .card{
   height:400px;
   width: 400px;
+}
+.header-color{
+  background-color:cornflowerblue;
+}
+a{
+  text-decoration: none;
+}
+.a-tag {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 40pt;
+}
+
+@media screen and (max-width:576px) {
+  .name{
+    font-size: 40pt;
+  }
+  .a-tag{
+    font-size: 15pt;
+  }
+  .card-img{
+    height: 300px;
+    width: 300px;
+  } 
+  .input-size{
+    width: 100%;
+  }
 }
