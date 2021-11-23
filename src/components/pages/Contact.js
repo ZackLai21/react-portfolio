@@ -46,7 +46,7 @@ function Form() {
   };
 
   return (
-    <div className='make-neat'>
+    <div className="make-neat">
       <h1>Contact</h1>
       <form className="form">
         <div className="form-group">
@@ -74,11 +74,12 @@ function Form() {
         <div className="form-group">
           <label htmlFor="messageInput">Message:</label>
           <textarea
-            className="form-control input-size"
+            className="form-control input-size mb-3"
             value={Message}
             name="message"
-            rows='5'
-
+            onChange={handleInputChange}
+            rows="5"
+            placeholder="message"
           ></textarea>
         </div>
         <button type="button" onClick={handleFormSubmit}>
